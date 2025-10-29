@@ -1,0 +1,65 @@
+%heading {
+  font-weight: 600;
+}
+
+.heading-1 {
+  font-size: 3rem;
+  text-transform: capitalize;
+  font-family: var(--font-heading);
+  margin-bottom: 2rem;
+  line-height: 1.6;
+  text-shadow: 0 1rem 1rem rgba(#000000, 0.9);
+  color: var(--color-white);
+
+  @media only screen and (max-width: 50em) {
+    font-size: 2.5rem;
+  }
+
+  @media only screen and (max-width: 37.5em) {
+    text-align: center;
+  }
+}
+
+.heading-2 {
+  font-size: 3rem;
+  text-transform: capitalize;
+  font-family: var(--font-heading);
+  padding-top: 3rem;
+  color: var(--color-white);
+  text-shadow: 0 1rem 1rem rgba(#000000, 0.9);
+  text-align: center;
+}
+
+.heading-3 {
+  font-size: 6rem;
+  text-transform: capitalize;
+  font-family: var(--font-heading);
+  padding-top: 7rem;
+  padding-bottom: 5rem;
+  color: var(--color-white);
+  text-shadow: 0 1rem 1rem rgba(#000000, 0.9);
+  text-align: center;
+
+  animation-name: ChangeColor;
+  animation-duration: 3s;
+  animation-timing-function: ease;
+  animation-delay: 0;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+  animation-fill-mode: backwards;
+}
+
+.heading-4 {
+  text-transform: capitalize;
+  font-family: var(--font-heading);
+  color: var(--color-white);
+}
+
+.heading-5 {
+  font-size: 3rem;
+  text-transform: capitalize;
+  font-family: var(--font-heading);
+  color: var(--color-white);
+  text-shadow: 0 1rem 1rem rgba(#000000, 0.9);
+  margin-bottom: 2rem;
+}
